@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F3E5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Jewelry"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#6A1B9A"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="Jewelry Name"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:elevation="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Jewelry Type:"
+        android:textSize="14sp"
+        android:textColor="#6A1B9A"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/typeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@android:color/white"
+        android:elevation="2dp"/>
+
+    <EditText
+        android:id="@+id/value"
+        android:hint="Estimated Value ($)"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:elevation="2dp"/>
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:text="SAVE JEWELRY"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#BA68C8"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:elevation="4dp"/>
+</LinearLayout>
