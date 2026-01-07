@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JewelryVault</string>
+    <string-array name="jewelry_types">
+        <item>Gold</item>
+        <item>Silver</item>
+        <item>Diamond</item>
+        <item>Platinum</item>
+        <item>Pearl</item>
+        <item>Other</item>
+    </string-array>
+</resources>
